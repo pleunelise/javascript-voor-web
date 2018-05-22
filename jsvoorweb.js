@@ -1,4 +1,4 @@
-var mijnPara = document.getElementById("para1");
+var antw = prompt("Hoe heet jij?");
+var mijnElement = document.getElementById("kopje1");
 
-alert("Hier is de innerHTML: " + mijnPara.innerHTML);
-alert("Hier is de  outerHTML: " + mijnPara.outerHTML);
+mijnElement.innerHTML = "Welkom op deze pagina " + antw;
