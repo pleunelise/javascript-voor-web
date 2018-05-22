@@ -1,4 +1,6 @@
-var antw = prompt("Hoe heet jij?");
-var mijnElement = document.getElementById("kopje1");
+var kop1 = document.getElementById("kopje1");
 
-mijnElement.innerHTML = "Welkom op deze pagina " + antw;
+kop1.innerHTML = "leuk kleurtje he?";
+
+kop1.style.color = "hotpink";
+kop1.style.font = "20px arial, sans-serif";
